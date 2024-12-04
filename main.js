@@ -43,7 +43,7 @@ const main = async () => {
 
     let pndMessage = "";
     pndResults.forEach((result) => {
-      if (result.utilization !== "0%") {
+      if (parseFloat(result.supply.split('@')[0].trim()) !== 0) {
         pndMessage += `
 **${result.displayName}**
 **Utilization:** ${result.utilization}
