@@ -20,6 +20,10 @@ const poolConfigs = [
     contractAddress: "0x7a997e2D7C84abb219832d944141de210e2840e1",
     displayName: "PND USDC",
   },
+  {
+    contractAddress: "0x68cBE77063dbCF7de7F59cD8c0051e0B2A23BF75",
+    displayName: "PND JPYC",
+  },
 ];
 
 const calculateRate = (rateUint) => {
